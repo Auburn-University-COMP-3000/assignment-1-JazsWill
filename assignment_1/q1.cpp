@@ -1,10 +1,8 @@
 #include <iostream>
-
 using namespace std; 
 
-
-int main() {
-
+int main() 
+{
     // Assignment #1 - Problem 1
 	cout << "NUMBER 1\n";
 
@@ -17,6 +15,8 @@ int main() {
 
 	numberSquared = number * number;
 	cout << "The number squared is:" << numberSquared << ".\n\n";
+	
+	return 0;
 }
 
 
