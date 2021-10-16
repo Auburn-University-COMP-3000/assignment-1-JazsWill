@@ -5,12 +5,18 @@ using namespace std;
 
 int main() {
 
-    int a; 
-    cout << "enter a number" << endl; 
-    cin >> a; 
-    cout << "output: " << a * a; 
+    // Assignment #1 - Problem 1
+	cout << "NUMBER 1\n";
 
-    return 0; 
+	int number;
+
+	cout << "Enter a number:";
+	cin >> number;
+
+	double numberSquared;
+
+	numberSquared = number * number;
+	cout << "The number squared is:" << numberSquared << ".\n\n";
 
 
 }
