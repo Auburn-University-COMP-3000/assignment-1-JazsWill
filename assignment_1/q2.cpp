@@ -1,9 +1,8 @@
 #include <iostream>
-
 using namespace std; 
 
-int main(){
-
+int main()
+{
     // Assignment #1 - Problem 2
 	cout << "NUMBER 2\n";
 
