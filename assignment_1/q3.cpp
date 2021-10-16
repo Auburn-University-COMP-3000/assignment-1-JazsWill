@@ -14,5 +14,7 @@ int main() {
 
 	freeFall = (32 * time) / 2 * (time * time);
 	cout << "An object in freefall for " << time << " seconds will fall " << freeFall << " feet.\n\n"; 
+	
+	return 0;
 }
 
