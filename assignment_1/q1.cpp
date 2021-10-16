@@ -17,8 +17,6 @@ int main() {
 
 	numberSquared = number * number;
 	cout << "The number squared is:" << numberSquared << ".\n\n";
-
-
 }
 
 
