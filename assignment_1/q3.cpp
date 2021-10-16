@@ -1,21 +1,20 @@
 #include <iostream>
-
 using namespace std; 
 
 int main() {
 
-const int acc = 32; 
-int t; 
-int distance; 
+// Assignment #1 - Problem 3
+	cout << "NUMBER 3\n";
 
-cout << "Enter a time in seconds: "<< endl; 
+	int time;
+	int freeFall;
 
-cin>> t; 
+	cout << "Enter a time in seconds:";
+	cin >> time;
 
-distance = (acc/2) * (t*t);
-
-cout<< ""<< t << "will fall in" << distance << "feet"; 
-
-return 0; 
+	freeFall = (32 * time) / 2 * (time * time);
+	cout << "An object in freefall for " << time << " seconds will fall " << freeFall << " feet.\n\n"; 
+	
+	return 0;
 }
 

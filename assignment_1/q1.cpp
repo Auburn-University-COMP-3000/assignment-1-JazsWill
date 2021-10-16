@@ -1,18 +1,22 @@
 #include <iostream>
-
 using namespace std; 
 
+int main() 
+{
+    // Assignment #1 - Problem 1
+	cout << "NUMBER 1\n";
 
-int main() {
+	int number;
 
-    int a; 
-    cout << "enter a number" << endl; 
-    cin >> a; 
-    cout << "output: " << a * a; 
+	cout << "Enter a number:";
+	cin >> number;
 
-    return 0; 
+	double numberSquared;
 
-
+	numberSquared = number * number;
+	cout << "The number squared is:" << numberSquared << ".\n\n";
+	
+	return 0;
 }
 
 
